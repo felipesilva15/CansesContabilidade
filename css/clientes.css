@@ -1,0 +1,12 @@
+.logo-cliente{
+    object-fit: contain;
+}
+
+.card-sm{
+    transition: 200ms;
+}
+
+.card-sm:hover{
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+}

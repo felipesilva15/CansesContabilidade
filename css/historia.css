@@ -1,0 +1,13 @@
+.img-history{
+    background-color: #F9F9F9;
+    border-radius: 50%;
+}
+
+.img-hist-reset{
+    width: 80px;
+    height: 80px;
+}
+
+.title-timeline{
+    align-items: center;
+}

@@ -1,0 +1,22 @@
+.dropdown-tree{
+    border-radius: 8px;
+    background-color: #F9F9F9;
+    padding: 20px;
+}
+
+.dropdown-tree-topic{
+    justify-content: space-between;
+}
+
+.dropdown-tree-description{
+    color: #909090;
+}
+
+.dropdown-tree-button{
+    border: none;
+    width: 25px;
+    height: 25px;
+    padding: 0px;
+    cursor: pointer;
+    background-color: transparent;
+}
