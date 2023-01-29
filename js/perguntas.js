@@ -9,10 +9,10 @@ function activeDropdown(idDropdown){
 
     if(display == "none"){
         $(descricao).css("display", "block");
-        $(imagem).prop("src", "../images/seta-cima.png")
+        $(imagem).prop("src", "images/seta-cima.png")
     }
     else{
         $(descricao).css("display", "none")
-        $(imagem).prop("src", "../images/seta-baixo.png")
+        $(imagem).prop("src", "images/seta-baixo.png")
     }
 }
