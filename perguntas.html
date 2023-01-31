@@ -10,42 +10,49 @@
         <link rel="shortcut icon" href="images/favicon/favicon.ico" type="image/x-icon">
     </head>
     <body>
-        <header class="default-size">
-            <div class="flex-custom row-custom default-size navbar shadow center">
-                <div class="flex-custom row-custom default-size center">
-                    <div class="menu-item margin-right-sm">
-                        <a href="index.html">Sobre nós</a>
-                    </div>
-                    <div class="menu-item">
-                        <a href="historia.html">Nossa história</a>
-                    </div>
-                    <div class="menu-item">
-                        <a href="servicos.html">Serviços</a>
-                    </div>
-                    <div class="menu-item">
-                        <a href="clientes.html">Nossos clientes</a>
-                    </div>
-                    <div class="menu-item">
-                        <a href="perguntas.html"><strong>Perguntas frequêntes</strong></a>
-                    </div>
-                    <div class="menu-item">
-                        <a href="fale-conosco.html">Fale conosco</a>
-                    </div>
-                </div>
+        <header class="default-size shadow">
+            <div class="logo-header">
+                <img src="images/logo.png" alt="Logo">
             </div>
-            <img class="logo-header" src="images/logo.png" alt="Logo">
+            <div class="hamburguer">
+                <div class="line"></div>
+                <div class="line"></div>
+                <div class="line"></div>
+            </div>
+            <nav class="nav-bar">
+                <ul>
+                    <li>
+                        <a href="/">Sobre nós</a>
+                    </li>
+                    <li>
+                        <a href="historia.html">Nossa história</a>
+                    </li>
+                    <li>
+                        <a href="servicos.html">Serviços</a>
+                    </li>
+                    <li>
+                        <a href="clientes.html">Nossos clientes</a>
+                    </li>
+                    <li>
+                        <a href="perguntas.html" class="active">FAQ</a>
+                    </li>
+                    <li>
+                        <a href="fale-conosco.html">Fale conosco</a>
+                    </li>
+                </ul>
+            </nav>
         </header>
         <main>
             <article class="article">
-                <div class="margin-top-lg">
-                    <h1 class="text-reset title">FAQ - Perguntas frequêntes</h1>
+                <div class="margin-top-lg padding-x-md">
+                    <h1 class="text-reset title text-center">FAQ - Perguntas frequêntes</h1>
                 </div>
-                <div class="margin-top-md section-sm">
+                <div class="margin-top-md section-sm padding-x-lg">
                     <p class="text-reset text-center">
                         Possui dúvidas em relação a áreas da contabilidade? Veja abaixo algumas das mais frequentes sobre estes assuntos. Caso não as mesmas não supram suas dúvidas, entre em contato conosco para que possamos lhe ajudar.
                     </p>
                 </div>
-                <div class="margin-top-lg section-sm" id="pergunta1">
+                <div class="margin-top-lg section-sm default-size padding-x-lg" id="pergunta1">
                     <div class="dropdown-tree shadow margin-bottom-sm">
                         <div class="flex-custom dropdown-tree-topic center-item">
                             <div>
@@ -64,22 +71,22 @@
                             <ul>
                                 <li>
                                     <p class="text-reset dropdown-tree-description">
-                                        Definir o tipo da empresa – O nome, endereço, atividade que realiza, entre outros detalhes.
+                                        Definir o tipo da empresa - O nome, endereço, atividade que realiza, entre outros detalhes.
                                     </p>
                                 </li>
                                 <li>
                                     <p class="text-reset dropdown-tree-description">
-                                        Definição do CNAE – Este passo é fundamental. A definição do CNAE influi diretamente na tributação da empresa, sendo decisivo em processos como licitações.
+                                        Definição do CNAE - Este passo é fundamental. A definição do CNAE influi diretamente na tributação da empresa, sendo decisivo em processos como licitações.
                                     </p>
                                 </li>
                                 <li>
                                     <p class="text-reset dropdown-tree-description">
-                                        Descrição dos Sócios – Quem são os sócios e quais as atribuições de cada um?
+                                        Descrição dos Sócios - Quem são os sócios e quais as atribuições de cada um?
                                     </p>
                                 </li>
                                 <li>
                                     <p class="text-reset dropdown-tree-description">
-                                        Fechamento do Capital Social – Qual será o total de investimento inicial em sua empresa?
+                                        Fechamento do Capital Social - Qual será o total de investimento inicial em sua empresa?
                                     </p>
                                 </li>
                                 <li>
@@ -91,7 +98,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="margin-top-sm section-sm" id="pergunta4">
+                <div class="margin-top-sm section-sm default-size padding-x-lg" id="pergunta4">
                     <div class="dropdown-tree shadow margin-bottom-sm">
                         <div class="flex-custom dropdown-tree-topic center-item">
                             <div>
@@ -110,7 +117,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="margin-top-sm section-sm" id="pergunta2">
+                <div class="margin-top-sm section-sm default-size padding-x-lg" id="pergunta2">
                     <div class="dropdown-tree shadow margin-bottom-sm">
                         <div class="flex-custom dropdown-tree-topic center-item">
                             <div>
@@ -129,7 +136,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="margin-top-sm section-sm" id="pergunta3">
+                <div class="margin-top-sm section-sm default-size padding-x-lg" id="pergunta3">
                     <div class="dropdown-tree shadow margin-bottom-sm">
                         <div class="flex-custom dropdown-tree-topic center-item">
                             <div>
@@ -174,5 +181,6 @@
         </footer>
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
         <script src="js/perguntas.js"></script>
+        <script src="js/menu.js"></script>
     </body>
 </html>

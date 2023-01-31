@@ -10,78 +10,85 @@
         <link rel="shortcut icon" href="images/favicon/favicon.ico" type="image/x-icon">
     </head>
     <body>
-        <header class="default-size">
-            <div class="flex-custom row-custom default-size navbar shadow center">
-                <div class="flex-custom row-custom default-size center">
-                    <div class="menu-item margin-right-sm">
-                        <a href="index.html">Sobre nós</a>
-                    </div>
-                    <div class="menu-item">
-                        <a href="historia.html">Nossa história</a>
-                    </div>
-                    <div class="menu-item">
-                        <a href="servicos.html">Serviços</a>
-                    </div>
-                    <div class="menu-item">
-                        <a href="clientes.html"><strong>Nossos clientes</strong></a>
-                    </div>
-                    <div class="menu-item">
-                        <a href="perguntas.html">Perguntas frequêntes</a>
-                    </div>
-                    <div class="menu-item">
-                        <a href="fale-conosco.html">Fale conosco</a>
-                    </div>
-                </div>
+        <header class="default-size shadow">
+            <div class="logo-header">
+                <img src="images/logo.png" alt="Logo">
             </div>
-            <img class="logo-header" src="images/logo.png" alt="Logo">
+            <div class="hamburguer">
+                <div class="line"></div>
+                <div class="line"></div>
+                <div class="line"></div>
+            </div>
+            <nav class="nav-bar">
+                <ul>
+                    <li>
+                        <a href="/">Sobre nós</a>
+                    </li>
+                    <li>
+                        <a href="historia.html">Nossa história</a>
+                    </li>
+                    <li>
+                        <a href="servicos.html">Serviços</a>
+                    </li>
+                    <li>
+                        <a href="clientes.html" class="active">Nossos clientes</a>
+                    </li>
+                    <li>
+                        <a href="perguntas.html">FAQ</a>
+                    </li>
+                    <li>
+                        <a href="fale-conosco.html">Fale conosco</a>
+                    </li>
+                </ul>
+            </nav>
         </header>
         <main>
             <article class="article">
                 <div class="margin-top-lg">
                     <h1 class="text-reset title">Nossos clientes</h1>
                 </div>
-                <div class="margin-top-md section-sm">
+                <div class="margin-top-md section-sm padding-x-lg">
                     <p class="text-reset text-center">
                         Veja abaixo nossos principais clientes no qual prestamos serviço. Caso deseje, é possível acessar o site do respectivo cliente clicando no card do mesmo.
                     </p>
                 </div>
                 <div class="margin-top-md margin-bottom-lg section-lg flex-custom center">
-                    <div class="card-sm shadow margin-right-md margin-top-md">
+                    <div class="card-sm shadow margin-md">
                         <a href="https://www.belimo.com/" target="_blank">
                             <div class="card-content default-size-plus flex-custom center padding-lg">
                                 <img class="logo-cliente" src="images/clientes/Belimo.png" alt="">
                             </div>
                         </a>
                     </div>
-                    <div class="card-sm shadow margin-right-md margin-top-md">
+                    <div class="card-sm shadow margin-md">
                         <a href="https://citrus.cx/" target="_blank">
                             <div class="card-content default-size-plus flex-custom center padding-lg">
                                 <img class="logo-cliente" src="images/clientes/Citrus.png" alt="">
                             </div>
                         </a>
                     </div>
-                    <div class="card-sm shadow margin-right-md margin-top-md">
+                    <div class="card-sm shadow margin-md">
                         <a href="https://www.life.church/lifegroups/" target="_blank">
                             <div class="card-content default-size-plus flex-custom center padding-lg">
                                 <img class="logo-cliente" src="images/clientes/Life-Groups.png" alt="">
                             </div>
                         </a>
                     </div>
-                    <div class="card-sm shadow margin-right-md margin-top-md">
+                    <div class="card-sm shadow margin-md">
                         <a href="https://www.lilly.com.br/" target="_blank">
                             <div class="card-content default-size-plus flex-custom center padding-lg">
                                 <img class="logo-cliente" src="images/clientes/Lilly.png" alt="">
                             </div>
                         </a>
                     </div>
-                    <div class="card-sm shadow margin-right-md margin-top-md">
+                    <div class="card-sm shadow margin-md">
                         <a href="https://www.myob.com/au" target="_blank">
                             <div class="card-content default-size-plus flex-custom center padding-lg">
                                 <img class="logo-cliente" src="images/clientes/Myob.png" alt="">
                             </div>
                         </a>
                     </div>
-                    <div class="card-sm shadow margin-right-md margin-top-md">
+                    <div class="card-sm shadow margin-md">
                         <a href="https://www.trustly.net/pt-BR" target="_blank">
                             <div class="card-content default-size-plus flex-custom center padding-lg">
                                 <img class="logo-cliente" src="images/clientes/Trustly.png" alt="">
@@ -110,5 +117,6 @@
                 <p class="text-reset">© Copyright 2022 Felipe Silva</p>
             </div>
         </footer>
+        <script src="js/menu.js"></script>
     </body>
 </html>

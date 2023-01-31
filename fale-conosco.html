@@ -10,69 +10,78 @@
         <link rel="shortcut icon" href="images/favicon/favicon.ico" type="image/x-icon">
     </head>
     <body>
-        <header class="default-size">
-            <div class="flex-custom row-custom default-size navbar shadow center">
-                <div class="flex-custom row-custom default-size center">
-                    <div class="menu-item margin-right-sm">
-                        <a href="index.html">Sobre nós</a>
-                    </div>
-                    <div class="menu-item">
-                        <a href="historia.html">Nossa história</a>
-                    </div>
-                    <div class="menu-item">
-                        <a href="servicos.html">Serviços</a>
-                    </div>
-                    <div class="menu-item">
-                        <a href="clientes.html">Nossos clientes</a>
-                    </div>
-                    <div class="menu-item">
-                        <a href="perguntas.html">Perguntas frequêntes</a>
-                    </div>
-                    <div class="menu-item">
-                        <a href="fale-conosco.html"><strong>Fale conosco</strong></a>
-                    </div>
-                </div>
+        <header class="default-size shadow">
+            <div class="logo-header">
+                <img src="images/logo.png" alt="Logo">
             </div>
-            <img class="logo-header" src="images/logo.png" alt="Logo">
+            <div class="hamburguer">
+                <div class="line"></div>
+                <div class="line"></div>
+                <div class="line"></div>
+            </div>
+            <nav class="nav-bar">
+                <ul>
+                    <li>
+                        <a href="/">Sobre nós</a>
+                    </li>
+                    <li>
+                        <a href="historia.html">Nossa história</a>
+                    </li>
+                    <li>
+                        <a href="servicos.html">Serviços</a>
+                    </li>
+                    <li>
+                        <a href="clientes.html">Nossos clientes</a>
+                    </li>
+                    <li>
+                        <a href="perguntas.html">FAQ</a>
+                    </li>
+                    <li>
+                        <a href="fale-conosco.html" class="active">Fale conosco</a>
+                    </li>
+                </ul>
+            </nav>
         </header>
         <main>
             <article class="article">
                 <div class="margin-top-lg">
                     <h1 class="text-reset title">Fale conosco</h1>
                 </div>
-                <div class="margin-top-md section-sm">
+                <div class="margin-top-md section-sm padding-x-lg">
                     <p class="text-reset text-center">
                         Caso tenha qualquer dúvida, entre em contato conosco. Basta inserir e enviar os seus dados no formulário ou nos envie um e-mail no endereço informado abaixo.
                     </p>
                 </div>
             </article>
             <article class="article margin-top-lg margin-bottom-xg">
-                <div class="card padding-md flex-custom card-custom">
-                    <div class="margin-right-md">
-                        <form action="" class="form-contact">
-                            <div class="flex-custom column-custom margin-bottom-xs">
-                                <label for="name" class="form-label">Nome</label>
-                                <input type="text" name="name" class="form-input padding-sm margin-top-xs" autocomplete="off">
+                <div class="section-sm default-size padding-x-lg">
+                    <div class="card flex-custom card-custom padding-md">
+                        <div class="form-contact default-size">
+                            <form action="" class=" default-size">
+                                <div class="flex-custom column-custom margin-bottom-xs">
+                                    <label for="name" class="form-label">Nome</label>
+                                    <input type="text" name="name" class="form-input padding-sm margin-top-xs" autocomplete="off">
+                                </div>
+                                <div class="flex-custom column-custom margin-bottom-xs">
+                                    <label for="email" class="form-label">E-mail</label>
+                                    <input type="email" name="email" class="form-input padding-sm margin-top-xs" autocomplete="off">
+                                </div>
+                                <div class="flex-custom column-custom margin-bottom-sm">
+                                    <label for="message" class="form-label">Mensagem</label>
+                                    <textarea class="form-input edit-box padding-sm margin-top-xs" name="message" autocomplete="off"></textarea>
+                                </div>
+                                <button type="submit" class="button padding-sm">Enviar</button>
+                            </form>
+                        </div>
+                        <div class="divisor"></div>
+                        <div class="">
+                            <label class="form-label">Nosso e-mail</label>
+                            <div class="margin-top-sm">
+                                <a class="link-reset flex-custom center" href="mailto:contatocanses@gmail.com">
+                                    <img class="img-icon margin-right-xs" src="images/mail.png" alt="E-mail">
+                                    <span>contatocanses@gmail.com</span>
+                                </a> 
                             </div>
-                            <div class="flex-custom column-custom margin-bottom-xs">
-                                <label for="email" class="form-label">E-mail</label>
-                                <input type="email" name="email" class="form-input padding-sm margin-top-xs" autocomplete="off">
-                            </div>
-                            <div class="flex-custom column-custom margin-bottom-sm">
-                                <label for="message" class="form-label">Mensagem</label>
-                                <textarea class="form-input edit-box padding-sm margin-top-xs" name="message" autocomplete="off"></textarea>
-                            </div>
-                            <button type="submit" class="button padding-sm">Enviar</button>
-                        </form>
-                    </div>
-                    <div class="divisor-v margin-right-md"></div>
-                    <div class="margin-right-lg">
-                        <label class="form-label">Nosso e-mail</label>
-                        <div class="margin-top-sm">
-                            <a class="link-reset flex-custom center" href="mailto:contatocanses@gmail.com">
-                                <img class="img-icon margin-right-xs" src="images/mail.png" alt="E-mail">
-                                <span>contatocanses@gmail.com</span>
-                            </a> 
                         </div>
                     </div>
                 </div>
@@ -98,5 +107,6 @@
                 <p class="text-reset">© Copyright 2022 Felipe Silva</p>
             </div>
         </footer>
+        <script src="js/menu.js"></script>
     </body>
 </html>
