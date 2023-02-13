@@ -58,7 +58,7 @@ Acesse o projeto em seu navegador substituindo a tag {localProjeto} com o local 
 
 ## 📄 Licença
 
-Este projeto está sob a licença (MIT) - veja o arquivo [LICENSE](https://github.com/felipesilva15/bravo4Fun/blob/main/LICENCE) para detalhes.
+Este projeto está sob a licença (MIT) - veja o arquivo [LICENSE](https://github.com/felipesilva15/cansescontabilidade/blob/main/LICENCE) para detalhes.
 
 ---
 Documentado por [Felipe Silva](https://github.com/felipesilva15) 😊
